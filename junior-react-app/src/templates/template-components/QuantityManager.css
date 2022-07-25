@@ -1,0 +1,24 @@
+.quantity-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 180px;
+}
+
+.quantity-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+}
+
+.quantity-container .quantity-button {
+    border: 1px solid #1D1F22;
+}
+
+.quantity-container .quantity-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

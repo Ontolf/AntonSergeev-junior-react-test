@@ -1,0 +1,49 @@
+.currency-switcher {
+    margin: 0 15px;
+    background: #FFFFFF;
+}
+
+.currency-switcher .currency-button {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1D1F22;
+}
+
+.currency-switcher .currency-button:hover {
+    cursor: pointer;
+    color: #5ECE7B;
+}
+
+.currency-switcher .currencies-list {
+    position: absolute;
+    right: 80px;
+    width: 100px;
+    height: 169px;
+    z-index: 100;
+}
+
+.currency-switcher .currencies-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1D1F22;
+    height: 45px;
+    list-style: none;
+    z-index: 100;
+    background: #FFFFFF;
+}
+
+.currency-switcher .currencies-list li:hover {
+    cursor: pointer;
+    background: #EEEEEE;
+}
+
+.currency-switcher .currencies-list-hidden {
+    display: none;
+}

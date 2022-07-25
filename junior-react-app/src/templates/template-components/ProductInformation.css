@@ -1,0 +1,149 @@
+.product-information {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow: auto;
+}
+
+.product-information .name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #1D1F22;
+    padding: 5px 0;
+}
+
+.product-information .brand {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1D1F22;
+    padding: 5px 0 25px 0;
+}
+
+.product-information .text-bold {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #1D1F22;
+    padding: 5px 0;
+}
+
+.product-information .attribute-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.product-information .attribute-container .items-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.product-information .attribute-container .items-container .swatch-item {
+    height: 40px;
+    width: 45px;
+    list-style: none;
+    margin: 5px;
+    border: 2px solid #FFFFFF;
+}
+
+.product-information .attribute-container .items-container .swatch-item-selected {
+    height: 40px;
+    width: 45px;
+    list-style: none;
+    margin: 5px;
+    border: 2px solid #5ECE7B;
+}
+
+.product-information .attribute-container .items-container .swatch-item:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.product-information .attribute-container .items-container .classic-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px 15px;
+    width: auto;
+    height: 36px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #1D1F22;
+    border: 1px solid #1D1F22;
+    background: #FFFFFF;
+    list-style: none;
+}
+
+.product-information .attribute-container .items-container .classic-item-selected {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px 15px;
+    width: auto;
+    height: 36px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    border: 1px solid #1D1F22;
+    background: #1D1F22;
+    list-style: none;
+}
+
+
+.product-information .attribute-container .items-container .classic-item:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #1D1F22;
+    border: 1px solid #1D1F22;
+}
+
+.product-information .price {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #1D1F22;
+}
+
+.product-information .cart-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    margin: 20px 0;
+}
+
+.product-information .cart-button-add {
+    background: #5ECE7B;
+    color: #FFFFFF;
+}
+
+.product-information .cart-button-add:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.product-information .cart-button-out-of-stock {
+    background: #8D8F9A;
+    color: #1D1F22;
+    opacity: 0.5;
+}
+
+.product-information .cart-button-out-of-stock:hover {
+    cursor: default;
+}

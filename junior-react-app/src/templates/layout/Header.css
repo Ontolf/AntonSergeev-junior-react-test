@@ -1,0 +1,23 @@
+.header {
+    position: sticky;
+    top: 0;
+    height: 60px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #FFFFFF;
+    z-index: 1;
+}
+
+.header .logo-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .interaction-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 30px;
+}
